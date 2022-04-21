@@ -1,32 +1,35 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
-scheduled: 2018-07-04
+title:  Web Component Frameworks
+description: 
+date: 2021-09-21
+scheduled: 2021-09-21
 tags:
-  - number-2
+  - programming
+  - web components
 layout: layouts/post.njk
 ---
+Ever been confused by web programming? No? ...stop lying
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+JavaScript runs the majority of web pages and with JS we can create custom web components. Since web components are relatively new they may be tough to pick up and implement. To ease the pain we all feel, people have made frameworks to slightly ease the burden of creating web components.
 
-## Section Header
+We'll compare some of the most popular frameworks (Angular, Vue, React) and a toolchain (Stencil) to determine the pluses and minuses that apply across them.
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
+### Commonalities
+Angular, React and Stencil are all similar in the way they conduct their file structures. Package.json is located in the main directory while the main page content is located in a designated folder. The outlier, Vue holds all the main content in the root directory. Misleadingly, Vue also puts .vue files in the /src folder which could be seen as confusing to a vanillaJS veteran.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Angular and Stencil use typescript which makes a newbie shiver but can be learned fairly quickly with experience in JS. On the other hand, React and Vue run (frontend-wise) on JS.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+### Duplicate / Overlapping Frameworks
+Once you begin using each framework, you begin to notice a good amount of how they work overlaps with each other. We get this duplication since these frameworks are open to use and shape into any project anybody wants. This makes contributors adding the effective parts of other frameworks to the one your using.
 
-# Test SVG
+### Easiest vs. Bias
+Overall, Vue seems the easiest to use since it's not very complicated to learn and running with.
 
-![Test Share SVG](/img/share.svg)
+But who likes doing the easy one?
 
-# Test Relative Local Image
+I've had experience in a past internship with Angular and although Vue wouldn't be tough to pick up if needed, if I had to choose a one to get a website going today, I'd be more confident in using Angular.
 
-![Test Share SVG](../../img/doener.jpg)
-
-# Test PNG
-
-![Png By @clipartmax.com](https://www.clipartmax.com/png/full/0-9896_film-clipart-free-to-use-public-domain-movie-clip-art-directors-board.png)
+### GitHub
+[Group Repo](https://github.com/IST-402-Group-1/IST402)
+[My Fork with Boilerplate](https://github.com/mwagnerPSU/IST402/)
+[Stencil Hello-World Boilerplate](https://github.com/hartjus/stencil-hello-world)

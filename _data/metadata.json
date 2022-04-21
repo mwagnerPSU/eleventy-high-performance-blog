@@ -1,26 +1,26 @@
 {
-  "title": "Title of the website. Update me.",
+  "title": "Sample Blog for Google's 11ty Template",
   "url": "https://update-me.com",
   "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "description": "A sample blog to demonstrate the usage of 11ty templates.",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+  "googleAnalyticsId": "mwagnerPSU",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "11ty Google Template",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": ""
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": ""
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Mike Wagner",
+    "twitterHandle": ""
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Mike Wagner"
   }
 }

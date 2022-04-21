@@ -1,29 +1,15 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
-date: 2018-08-24
-scheduled: 2018-08-24
+title: Web Component Progress
+description: 
+date: 2021-10-01
+scheduled: 2021-10-01
 tags:
-  - second-tag
+  - programming
+  - web components
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+We are currently making a reusable button web component in one of my classes. I'm going to run through the current status of the project.
 
-``` js/2/4
-// this is a command
-function myCommand() {
-	let counter = 0;
+When clicked the button will play a randomly picked audio clip from a selection of meme audios. Currently, the button has five properties (link, title, icon, disabled, play) that can be adjusted to personalize the button for yourself. When clicked the button plays an audio clip then opens the link in a new window. The button has functionality that will updated properties based on other properties. For example, is the play property is set to true, the button will also be disabled to prevent spamming. We also included various CSS properties to not only shape the button but change how it looks based on different states. For example, when the button is hovered over, the text and button color will change. Also, when the button is playing an audio clip, the button color will change as well.
 
-	counter++;
-
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+Link to repo: https://github.com/IST-402-Group-1/KMBtn
